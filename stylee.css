@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Bai Jamjuree", sans-serif;
+    color:hsl(201, 11%, 66%);
+}
+.contant .start{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.contant .start .img .photo{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.contant .start .text{
+    text-align: center;
+    width: 39%;
+    margin: 10px;
+}
+.contant .start .text h1{ 
+    color: hsl(210, 10%, 33%);
+    font-size: 35px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.contant .start .text p{ 
+    margin-bottom: 15px;
+}
+.contant .start .img .captain{
+    margin-bottom: 15px;
+}
+.contant .start .button .ios{
+    padding: 15px;
+    margin: 10px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    transition: 0.4s;
+}
+.contant .start .button .mac{
+    padding: 15px;
+    margin: 10px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    transition: 0.4s;
+} 
+.contant .start .button .ios:hover{
+    background-color: hsla(171, 66%, 44% , 50%);
+    cursor: pointer;
+}
+.contant .start .button .mac:hover{
+    background-color: hsl(233, 100%, 69% , 50%);
+    cursor: pointer;
+}
+.contant .second .text2{
+    text-align: center;
+    margin: 15px auto;
+    width: 640px;
+}
+.contant .second .text2 h1{ 
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 20px;
+}
+.contant .second .text2 p{ 
+    margin-bottom: 50px;
+}
+.contant .second .second-contant{
+    display:flex;
+    align-items: center;
+    gap: 100px;
+}
+.contant .second .text3 {
+    width: 350px;
+}
+.contant .second .text3 div{
+    margin-bottom: 50px;
+}
+.contant .second .text3 h2{
+    padding-bottom:10px ;
+    color: hsl(210, 10%, 33%);
+}
+.contant .third .text4{
+    text-align: center;
+    margin: 15px auto;
+    width: 640px;
+}
+.contant .third .text4 h1{ 
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 20px;
+}
+.contant .third .text4 p{ 
+    margin-bottom: 50px;
+}
+.contant .third .img3{
+    display: flex;
+    justify-content: center;
+}
+.contant .fourth .text5{
+    text-align: center;
+    margin: 15px auto;
+    width: 640px;
+}
+.contant .fourth .text5 h1{
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 20px;
+}
+.contant .fourth .text5 p{ 
+    margin-bottom: 50px;
+}
+.contant .fourth .icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+.contant .fourth .icon .blacklist{
+    width: 27%;
+    text-align: center;
+}
+.contant .fourth .icon .Atext{
+    width: 28%;
+    text-align: center;
+}
+.contant .fourth .icon .preview{
+    width: 30%;
+    text-align: center;
+}
+.contant .fourth .icon img{
+    margin: 20px;
+}
+.contant .fourth .icon h2{
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 20px;
+}
+.contant .fourth .icon p{ 
+    margin-bottom: 50px;
+}
+.contant .fourth .tech{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.contant .fifth .text6{
+    text-align: center;
+    margin: 15px auto;
+    width: 640px;
+}
+.contant .fifth .text6 h1{
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 20px;
+}
+.contant .fifth .text6 p{
+    margin-bottom: 50px;
+}
+.contant .fifth .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.contant .fifth .button .ios{
+    padding: 15px;
+    margin: 10px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    transition: 0.4s;
+}
+.contant .fifth .button .mac{
+    padding: 15px;
+    margin: 10px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    transition: 0.4s;
+} 
+.contant .fifth .button .ios:hover{
+    background-color: hsla(171, 66%, 44% , 50%);
+    cursor: pointer;
+}
+.contant .fifth .button .mac:hover{
+    background-color: hsl(233, 100%, 69% , 50%);
+    cursor: pointer;
+}
+.contant .fifth .footer{
+    display: flex;
+    padding: 50px 0 20px 0 ; 
+    background-color:hsl(240, 7%, 97%);
+}
+.contant .fifth .footer .left{
+    display: flex;
+    justify-content: center; 
+    text-align: left;
+}
+.contant .fifth .footer .left img{
+    margin: 0 150px;
+}
+.contant .fifth .footer .left p{
+    margin: 0 20px 10px 20px;
+    margin-right: 100px;
+    transition: 0.5s;
+}
+.contant .fifth .footer .left p:hover{
+    color: hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+.contant .fifth .footer .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 7%;
+    margin: auto;
+    transition: 0.5s;
+}   
